@@ -1,0 +1,88 @@
+primeShortcodeMeta = {
+    attributes:[
+
+        {
+            label:"Animation",
+            id:"animation",
+            help:"the type of animation you want to use",
+            controlType:"select-control",
+            selectValues:[
+                'bounce',
+                'bounceIn',
+                'bounceInDown',
+                'bounceInLeft',
+                'bounceInRight',
+                'bounceInUp',
+                'bounceOut',
+                'bounceOutDown',
+                'bounceOutLeft',
+                'bounceOutRight',
+                'bounceOutUp',
+                'fadeIn',
+                'fadeInDown',
+                'fadeInDownBig',
+                'fadeInLeft',
+                'fadeInLeftBig',
+                'fadeInRight',
+                'fadeInRightBig',
+                'fadeInUp',
+                'fadeInUpBig',
+                'fadeOut',
+                'fadeOutDown',
+                'fadeOutDownBig',
+                'fadeOutLeft',
+                'fadeOutLeftBig',
+                'fadeOutRight',
+                'fadeOutRightBig',
+                'fadeOutUp',
+                'fadeOutUpBig',
+                'flash',
+                'flip',
+                'flipInX',
+                'flipInY',
+                'flipOutX',
+                'flipOutY',
+                'hinge',
+                'lightSpeedIn',
+                'lightSpeedOut',
+                'pulse',
+                'rollIn',
+                'rollOut',
+                'rotateIn',
+                'rotateInDownLeft',
+                'rotateInDownRight',
+                'rotateInUpLeft',
+                'rotateInUpRight',
+                'rotateOut',
+                'rotateOutDownLeft',
+                'rotateOutDownRight',
+                'rotateOutUpLeft',
+                'rotateOutUpRight',
+                'shake',
+                'swing',
+                'tada',
+                'wiggle',
+                'wobble'
+            ],
+            defaultValue:'bounceInLeft',
+            defaultText:'bounceInLeft (default)'
+        },
+        {
+            label:"Duration",
+            id:"duration",
+            help:'how long you want the animation to last (Ex. 1.5s)'
+        },
+        {
+            label:"Delay",
+            id:"delay",
+            help:'how long you want to wait after the page is loaded before kicking off the animation (Ex. 1.5s)'
+        },
+        {
+            label:"Iterations",
+            id:"iterations",
+            help:'the number of times you want the animation to run. This value can be any positive number or "infinite".'
+        }
+    ],
+    defaultContent:'<p>Your content to be animated should go here.</p>',
+    shortcode:"animate"
+};

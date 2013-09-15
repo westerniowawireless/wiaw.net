@@ -1,0 +1,20 @@
+/*
+Theme Name:     Nexus Child
+Theme URI:      http://example.com/
+Description:    Child theme for the Nexus Premium WordPress Theme
+Author:         Your name here
+Author URI:     http://example.com/about/
+Template:       nexus
+Version:        0.0.1
+*/
+
+@import url("../nexus/style.css");
+@import url("../nexus/responsive.css");
+@import url("../nexus/css/fonts.css");
+@import url("../nexus/css/print.css");
+@import url("../nexus/css/animate.css");
+
+/* This is an example style. You can remove this and add any additional styles you want below. */
+body {
+	font-weight: bold !important;
+}
